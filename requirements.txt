@@ -1,24 +1,8 @@
-# --- CORE COMPAT ---
-numpy==1.26.4
-onnx==1.14.1
-onnxruntime-gpu==1.16.1
+numpy==2.0.0
+onnx==1.17.0
+onnxruntime-gpu==1.19.2
 opencv-python==4.10.0.84
 pillow==10.4.0
-scikit-image==0.21.0
-
-# --- INSIGHTFACE ---
-insightface==0.7.3
-protobuf==4.25.3
-matplotlib==3.7.1
-ml-dtypes==0.2.0
-
-# --- PyTorch ---
-torch==2.4.1+cu121
-torchvision==0.19.1+cu121
-pytorch-msssim==1.0.0
-
-# --- UTILITIES ---
+scikit-image==0.24.0
 tqdm
 requests
-coloredlogs
-prettytable
